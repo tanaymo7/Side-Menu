@@ -15,10 +15,10 @@ const perspective = {
     translateY: 0,
     translateX: 0,
     transition: {
-      duration: 0.6,
-      delay: 0.7 + i * 0.12,
+      duration: 0.7,
+      delay: 0.65 + i * 0.12,
       ease: [0.215, 0.61, 0.355, 1],
-      opacity: { duration: 0.65, delay: 0.75 },
+      opacity: { duration: 0.75, delay: 0.75 },
     },
   }),
 
