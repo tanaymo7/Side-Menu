@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 100px 50px 50px 50px;
+  height: 100%;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 46px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+  transition: color 0.3s ease-in-out;
+}
+.nav-links a:hover{
+  color: #909090b7;
+}
+.link-container {
+  perspective: 120px;
+  perspective-origin: bottom;
+}
